@@ -42,3 +42,9 @@ ref int Z(ref int a)
 
     return ref a;  //ref return örneği
 }
+
+//-----------------------------------------------------------------------------------------------------
+
+char o = 'a';
+
+ref char p = ref o; //ref local örneği
