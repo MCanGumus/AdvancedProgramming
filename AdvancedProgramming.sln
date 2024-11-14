@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefReturnLocal", "RefReturnLocal\RefReturnLocal.csproj", "{6DB07443-464D-4B34-9E56-AB59EAA97637}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{05E7D508-AE55-4BD7-9434-E68B72A6B60C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{05E7D508-AE55-4BD7-9434-E68B72A6B60C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitExplicitConversion", "ImplicitExplicitConversion\ImplicitExplicitConversion.csproj", "{71BFAE59-41E9-4ECF-AF09-8712C7ADB0B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitExplicitConversion", "ImplicitExplicitConversion\ImplicitExplicitConversion.csproj", "{71BFAE59-41E9-4ECF-AF09-8712C7ADB0B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{586D2BAF-7E3E-4013-AB17-B51EAF512591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{586D2BAF-7E3E-4013-AB17-B51EAF512591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramaticObjectGeneration", "ProgramaticObjectGeneration\ProgramaticObjectGeneration.csproj", "{1E20335D-CC9E-4113-AFDD-FA443D0D75F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramaticObjectGeneration", "ProgramaticObjectGeneration\ProgramaticObjectGeneration.csproj", "{1E20335D-CC9E-4113-AFDD-FA443D0D75F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericStructures", "GenericStructures\GenericStructures.csproj", "{B5AA64B6-EFF9-4D70-9F91-A612846151A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericStructures", "GenericStructures\GenericStructures.csproj", "{B5AA64B6-EFF9-4D70-9F91-A612846151A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceContravariance", "CovarianceContravariance\CovarianceContravariance.csproj", "{C1A48665-B4B5-4EC7-BAF5-492D52A1D53A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B5AA64B6-EFF9-4D70-9F91-A612846151A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5AA64B6-EFF9-4D70-9F91-A612846151A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5AA64B6-EFF9-4D70-9F91-A612846151A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A48665-B4B5-4EC7-BAF5-492D52A1D53A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A48665-B4B5-4EC7-BAF5-492D52A1D53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A48665-B4B5-4EC7-BAF5-492D52A1D53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A48665-B4B5-4EC7-BAF5-492D52A1D53A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
